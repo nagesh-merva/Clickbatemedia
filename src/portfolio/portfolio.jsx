@@ -1,7 +1,7 @@
-import Marketing from "./Marketing.jpg"
+import Lottie from "lottie-react"
 import Content from "./Content.jpg"
-import Web from "./Web.jpg"
-
+import MakAnime from "./Marketing_animation.json"
+import WebAnime from "./Web_animation.json"
 
 function Portfolio() {
     return (
@@ -14,7 +14,7 @@ function Portfolio() {
                     <button className="absolute bottom-8 text-xl font-semibold rounded-full border-2 pl-4 pr-4 p-2 bg-stone-200 border-x-black drop-shadow-xl shadow-black hover:scale-125 hover:border-y-black hover:bg-white transition-all">Know more</button>
                 </div>
                 <div className="h-[32rem] bg-white flex justify-center items-center">
-                    <img src={Marketing} className="h-72 md:h-96 w-auto" alt="" />
+                    <Lottie animationData={MakAnime} />
                 </div>
             </div>
             <div className="relative w-full h-[32rem] flex items-center">
@@ -24,7 +24,7 @@ function Portfolio() {
             </div>
             <div className=" grid grid-cols-1 md:grid-cols-2 ">
                 <div className="h-[32rem] bg-white flex justify-center items-center">
-                    <img src={Web} className="h-72 md:h-[30rem] w-auto" alt="" />
+                    <Lottie animationData={WebAnime} />
                 </div>
                 <div className="relative h-[32rem] bg-sky-950 flex flex-col justify-center items-center">
                     <h1 className="text-5xl font-belgiano font-bold text-amber-50">Web Design</h1>
