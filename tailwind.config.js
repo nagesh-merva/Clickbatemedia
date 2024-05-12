@@ -9,8 +9,13 @@ export default {
       fontFamily: {
         regular: ["Regular"],
         belgiano: ["Belgiano"]
+      },
+      colors: {
+        porpe: {
+          DEFAULT: "#dcdcfc"
+        }
       }
-    },
+    }
   },
   plugins: [],
 }

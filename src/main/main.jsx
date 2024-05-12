@@ -1,4 +1,4 @@
-import background from "./background.png"
+import background from "./background.jpg"
 import graphic from "./graphic.png"
 
 
