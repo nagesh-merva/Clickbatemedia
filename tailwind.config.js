@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        'spin-slow': 'spin 50s linear infinite',
+      },
       fontFamily: {
         regular: ["Regular"],
         belgiano: ["Belgiano"]

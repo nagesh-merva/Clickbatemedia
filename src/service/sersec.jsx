@@ -27,22 +27,22 @@ function SerSec() {
                 <div className="pt-10 md:p-20 grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="p-10 bg-white rounded-xl drop-shadow-lg hover:scale-105 hover:border-2 group">
                         <li className='bx bxs-megaphone w-full text-4xl text-sky-500 group-hover:animate-bounce'></li>
-                        <h1 className="font-sans font-semibold text-2xl group-hover:translate-x-[30%] transition-transform">Marketing</h1>
+                        <h1 className="font-sans font-semibold text-2xl group-hover:text-center transition-transform">Marketing</h1>
                         <p className=" text-balance pt-4 text-lg font-thin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam esse minima aspernatur porro sed? At maiores quos eligendi labore consequuntur ab recusandae culpa, ut ad voluptatibus rerum. Quo, aspernatur sed.</p>
                     </div>
                     <div className="p-10 bg-white rounded-xl drop-shadow-lg hover:scale-105 hover:border-2 group">
                         <li className='bx bxs-brush-alt w-full text-4xl text-sky-500 group-hover:animate-bounce'></li>
-                        <h1 className="font-sans font-semibold text-2xl group-hover:translate-x-[30%] transition-transform">Graphic Design</h1>
+                        <h1 className="font-sans font-semibold text-2xl group-hover:text-center transition-transform">Graphic Design</h1>
                         <p className=" text-balance pt-4 text-lg font-thin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam esse minima aspernatur porro sed? At maiores quos eligendi labore consequuntur ab recusandae culpa, ut ad voluptatibus rerum. Quo, aspernatur sed.</p>
                     </div>
                     <div className="p-10 bg-white rounded-xl drop-shadow-lg hover:scale-105 hover:border-2 group">
                         <li className='bx bx-globe w-full text-4xl text-sky-500 group-hover:animate-bounce' ></li>
-                        <h1 className="font-sans font-semibold text-2xl group-hover:translate-x-[30%] transition-transform">Web Design</h1>
+                        <h1 className="font-sans font-semibold text-2xl group-hover:text-center transition-transform">Web Design</h1>
                         <p className=" text-balance pt-4 text-lg font-thin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam esse minima aspernatur porro sed? At maiores quos eligendi labore consequuntur ab recusandae culpa, ut ad voluptatibus rerum. Quo, aspernatur sed.</p>
                     </div>
                     <div className="p-10 bg-white rounded-xl drop-shadow-lg hover:scale-105 hover:border-2 group">
                         <li className='bx bxs-microphone text-4xl w-full text-sky-500 group-hover:animate-bounce'></li>
-                        <h1 className="font-sans font-semibold text-2xl group-hover:translate-x-[30%] transition-transform">Content Creation</h1>
+                        <h1 className="font-sans font-semibold text-2xl group-hover:text-center transition-transform">Content Creation</h1>
                         <p className=" text-balance pt-4 text-lg font-thin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam esse minima aspernatur porro sed? At maiores quos eligendi labore consequuntur ab recusandae culpa, ut ad voluptatibus rerum. Quo, aspernatur sed.</p>
                     </div>
                 </div>
