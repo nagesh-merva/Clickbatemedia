@@ -1,4 +1,4 @@
-import 'boxicons/css/boxicons.min.css';
+import 'boxicons/css/boxicons.min.css'
 
 
 function SerSec() {
@@ -50,5 +50,4 @@ function SerSec() {
         </div>
     )
 }
-
 export default SerSec

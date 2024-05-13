@@ -1,5 +1,6 @@
 import Lottie from "lottie-react"
 import Content from "./Content.jpg"
+import Content2 from "./Content2.jpg"
 import MakAnime from "./Marketing_animation.json"
 import WebAnime from "./Web_animation.json"
 
@@ -18,8 +19,9 @@ function Portfolio() {
                 </div>
             </div>
             <div className="relative w-full h-[32rem] flex items-center">
-                <img src={Content} className="h-[32rem] w-full" alt="" />
-                <h1 className="absolute left-14 text-5xl font-bold font-belgiano text-stone-200 drop-shadow-lg">Content Creation</h1>
+                <img src={Content2} className="block h-[32rem] w-full md:hidden" alt="" />
+                <img src={Content} className="hidden h-[32rem] w-full md:block" alt="" />
+                <h1 className="absolute left-14 text-5xl font-bold font-belgiano text-white md:text-stone-200 drop-shadow-lg">Content Creation</h1>
                 <button className="absolute left-[10%] bottom-[10%] text-xl font-semibold rounded-full border-2 pl-4 pr-4 p-2 bg-stone-200 border-x-black drop-shadow-xl shadow-black hover:scale-125 hover:border-y-black hover:bg-white transition-all">Know more</button>
             </div>
             <div className=" grid grid-cols-1 md:grid-cols-2 ">
