@@ -10,14 +10,14 @@ import Footer from "./footer/footer.jsx"
 function App() {
   return (
     <>
-      <NavBar></NavBar>
-      <MainPage></MainPage>
-      <Service></Service>
-      <SerSec></SerSec>
-      <Portfolio></Portfolio>
-      <Phylosophy></Phylosophy>
-      <Contact></Contact>
-      <Footer></Footer>
+      <NavBar />
+      <MainPage />
+      <Service />
+      <SerSec />
+      <Portfolio />
+      <Phylosophy />
+      <Contact />
+      <Footer />
     </>
   )
 }

@@ -11,7 +11,8 @@ export default {
       },
       fontFamily: {
         regular: ["Regular"],
-        belgiano: ["Belgiano"]
+        belgiano: ["Belgiano"],
+        poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
         porpe: {
