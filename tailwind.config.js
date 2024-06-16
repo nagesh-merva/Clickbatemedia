@@ -15,6 +15,7 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
+        customblue: '#020617',
         porpe: {
           DEFAULT: "#dcdcfc"
         }
