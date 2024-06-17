@@ -4,9 +4,9 @@ function Service() {
     return (
         <div className="flex flex-col w-full items-center bg-customblue pt-30 p-4 md:p-20">
             <div className='flex flex-col md:flex-row'>
-                <div className="pt-10 w-full md:w-1/2 h-auto pl-10">
-                    <h3 className="pt-5 font-semibold text-sm font-poppins text-white text-left">ABOUT US</h3>
-                    <h1 className="pt-5 text-4xl font-poppins font-normal text-white text-balance">Who are We?</h1>
+                <div className="pt-10 w-full justify-center md:w-1/2 h-auto pl-10">
+                    <h3 className="pt-5 font-semibold text-sm font-poppins text-white text-center md:text-left">ABOUT US</h3>
+                    <h1 className="pt-5 text-4xl font-poppins font-normal text-white text-center md:text-left">Who are We?</h1>
                     <p className="pt-10 text-sm font-poppins font-thin text-white text-preety">Welcome to Clickbate Media, where creativity meets innovation. We are a passionate team of designers, developers, and strategists dedicated to bringing your ideas to life. Our mission is to help brands grow and thrive in the digital landscape by providing high-quality, tailored solutions that meet your unique needs.</p>
                     <button className="mt-20 pr-5 p-2 pl-5 rounded-full bg-blue-950 font-poppins text-md text-white hover:bg-indigo-500 transition-colors">Learn More About Us</button>
                 </div>

@@ -44,8 +44,8 @@ function Footer() {
                     <img src={logo} className='w-52 h-auto' alt="logo" />
                     <a href="#" onClick={scrollToTop}><i ref={boxRef} className='pt-6 text-2xl bx bx-chevron-up'></i></a>
                 </div>
-                <p className="absolute bottom-2 left-1 md:left-10">&copy; 2024 ClickBateMedia. </p>
-                <p className="absolute bottom-2 right-1 md:right-10">All rights reserved.</p>
+                <p className="absolute bottom-2 left-1 text-[10px] md:text-lg md:left-10">&copy; 2024 ClickBateMedia. </p>
+                <p className="absolute bottom-2 right-1 text-[10px] md:text-lg md:right-10">All rights reserved.</p>
             </div>
         </footer>
     )
