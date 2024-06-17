@@ -26,7 +26,7 @@ function MainPage() {
                     <p className="text-gray-300 font-thin font-poppins text-lg md:text-2xl pb-4">
                         Hello <s className="text-slate-800">Digital</s> World! We are
                     </p>
-                    <div className="pt-4 group flex flex-col justify-center items-center">
+                    <div className="px-4 md:px-0 pt-4 group flex flex-col justify-center items-center">
                         <svg
                             ref={textRef}
                             viewBox="0 0 150 20"
@@ -40,7 +40,7 @@ function MainPage() {
                             </text>
                         </svg>
                     </div>
-                    <h3 className="text-xl font-normal text-stone-300 font-sans pt-4">
+                    <h3 className="px-4 text-xl font-normal text-stone-300 font-sans pt-4 text-center">
                         We are a team of creative experts who bring your ideas to life through innovative design and strategy.
                     </h3>
                 </div>

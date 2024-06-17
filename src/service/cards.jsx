@@ -5,8 +5,8 @@ import websiteDesignImage from './website_design.jpg';
 
 function Cards() {
     return (
-        <div className='p-10 w-full space-x-8 flex flex-row'>
-            <div className="bg-white h-auto w-1/3 shadow-lg rounded-lg overflow-hidden">
+        <div className='p-5 md:p-10 w-full md:space-x-8 space-y-8 flex flex-col md:flex-row'>
+            <div className="bg-white h-auto md:w-1/3 shadow-lg rounded-lg overflow-hidden">
                 <img
                     src={websiteDesignImage}
                     alt="content creation"
@@ -21,7 +21,7 @@ function Cards() {
                     <a href={""} className="pl-5 text-lg text-blue-600 hover:text-blue-900">Read more</a>
                 </div>
             </div>
-            <div className="bg-white h-auto w-1/3 shadow-lg rounded-lg overflow-hidden">
+            <div className="bg-white h-auto w-full md:w-1/3 shadow-lg rounded-lg overflow-hidden">
                 <img
                     src={contentCreationImage}
                     alt="content creation"
@@ -36,7 +36,7 @@ function Cards() {
                     <a href={""} className="pl-5 text-lg text-blue-600 hover:text-blue-900">Read more</a>
                 </div>
             </div>
-            <div className="bg-white h-auto w-1/3 shadow-lg rounded-lg overflow-hidden">
+            <div className="bg-white h-auto w-full md:w-1/3 shadow-lg rounded-lg overflow-hidden">
                 <img
                     src={marketingImage}
                     alt="content creation"

@@ -36,7 +36,7 @@ function Footer() {
                         <i className='text-lg text-blue-600 bx bxl-linkedin'></i>
                     </div>
                 </div>
-                <div className="pt-10 flex justify-center h-auto w-full space-x-5">
+                <div className="pt-10 flex-col md:flex-row flex justify-center items-center h-auto w-full md:space-x-5">
                     <li className="text-lg font-poppins bx bxs-phone">+91 9354548685</li>
                     <li className="text-lg font-popppins bx bx-envelope">  clickbatemedia@gmail.com</li>
                 </div>
@@ -44,8 +44,8 @@ function Footer() {
                     <img src={logo} className='w-52 h-auto' alt="logo" />
                     <a href="#" onClick={scrollToTop}><i ref={boxRef} className='pt-6 text-2xl bx bx-chevron-up'></i></a>
                 </div>
-                <p className="absolute bottom-2 left-10">&copy; 2024 ClickBateMedia. </p>
-                <p className="absolute bottom-2 right-10">All rights reserved.</p>
+                <p className="absolute bottom-2 left-1 md:left-10">&copy; 2024 ClickBateMedia. </p>
+                <p className="absolute bottom-2 right-1 md:right-10">All rights reserved.</p>
             </div>
         </footer>
     )
